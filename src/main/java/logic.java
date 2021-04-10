@@ -12,6 +12,10 @@ public class logic {
         int quessp1 = 0;
         int quessp2 = 0;
 
+        boolean plisRight = false;
+        boolean pl1isRight = false;
+        boolean pl2isRight = false;
+
     }
 
 }
