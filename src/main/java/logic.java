@@ -8,16 +8,27 @@ public class logic {
         pl1 = new Player();
         pl2 = new Player();
 
-        int quessp = 0;
-        int quessp1 = 0;
-        int quessp2 = 0;
+        int guessp = 0;
+        int guessp1 = 0;
+        int guessp2 = 0;
 
         boolean plisRight = false;
         boolean pl1isRight = false;
         boolean pl2isRight = false;
 
-        int TargetNumber = (int) (Math.random() * 10);
+        int targetNumber = (int) (Math.random() * 10);
         System.out.println("Я загадываю число от 0 до 9...");
+
+        while(true){
+            System.out.println("Число, которое нужно угодать, - " + targetNumber);
+
+            pl.guess();
+            pl1.guess();
+            pl2.guess();
+
+
+
+        }
 
     }
 
