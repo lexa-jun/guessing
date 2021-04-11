@@ -26,6 +26,17 @@ public class logic {
             pl1.guess();
             pl2.guess();
 
+            guessp = pl.number;
+            System.out.println("Первый игрок думает, что это " + guessp);
+
+            guessp1 = pl1.number;
+            System.out.println("Второй игрок думает, что это " + guessp1);
+
+            guessp2 = pl2.number;
+            System.out.println("Третий игрок думает, что это " + guessp2);
+
+
+
 
 
         }
