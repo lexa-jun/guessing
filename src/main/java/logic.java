@@ -16,6 +16,9 @@ public class logic {
         boolean pl1isRight = false;
         boolean pl2isRight = false;
 
+        int TargetNumber = (int) (Math.random() * 10);
+        System.out.println("Я загадываю число от 0 до 9...");
+
     }
 
 }
