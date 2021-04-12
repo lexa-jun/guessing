@@ -35,6 +35,18 @@ public class logic {
             guessp2 = pl2.number;
             System.out.println("Третий игрок думает, что это " + guessp2);
 
+            if(guessp == targetNumber){
+                plisRight = true;
+            }
+            if(guessp1 == targetNumber){
+                pl1isRight = true;
+            }
+            if(guessp2 == targetNumber){
+                pl2isRight = true;
+            }
+
+
+
 
 
 
