@@ -53,15 +53,10 @@ public class logic {
                 System.out.println("Третий игрок угадал? " + pl2isRight);
                 System.out.println("Конец игры.");
                 break;
-
             }
-
-
-
-
-
+            else{
+                System.out.println("Победителя нет, попробывать еще раз?");
+            }
         }
-
     }
-
 }
