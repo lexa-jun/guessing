@@ -45,7 +45,16 @@ public class logic {
                 pl2isRight = true;
             }
 
+            if(pl1isRight || pl1isRight || pl2isRight){
 
+                System.out.println("У нас есть победитель!");
+                System.out.println("Первый игрок угадал? " + plisRight);
+                System.out.println("Второй игрок угадал? " + pl1isRight);
+                System.out.println("Третий игрок угадал? " + pl2isRight);
+                System.out.println("Конец игры.");
+                break;
+
+            }
 
 
 
